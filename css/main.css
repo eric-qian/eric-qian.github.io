@@ -12,7 +12,7 @@ body {
 
 a,
 a:hover {
-  color: #a00;
+  color: #e77500;
   text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+  color: #e77500;
 }
 
 ::-moz-selection {
@@ -67,7 +67,7 @@ blockquote {
   font-size: 1.4rem;
   font-family: Georgia, bitstream charter, serif;
   border-left: 3px solid;
-  border-color: #a00;
+  border-color: #e77500;
   padding-left: 20px;
 }
 
@@ -81,12 +81,16 @@ span {
 
 a,
 a:hover {
-  color: #a00;
+  color: #e77500;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+a:link {
+  color: #e77500;
 }
 
 h1,
@@ -97,7 +101,7 @@ h5,
 h6 {
   font-family: Ubuntu, raleway, sans-serif;
   line-height: 1.2;
-  color: #330;
+  color: #e77500;
   font-weight: 100;
   margin-bottom: 15px;
   margin-top: 20px;
@@ -248,7 +252,7 @@ ul {
 }
 
 .header .site-affilation .email {
-  /* color: #a00; */
+  /* color: #e77500; */
   font-size: 14px;
   display: block;
   font-family: "Ubuntu Mono";
@@ -256,7 +260,7 @@ ul {
 }
 
 .header .site-affilation .position {
-  /* color: #a00; */
+  /* color: #e77500; */
   /* font-size: 14px; */
   /* display: block; */
   font-family: Ubuntu;
@@ -303,7 +307,7 @@ ul {
 }
 
 .email {
-  /* color: #a00; */
+  /* color: #e77500; */
   font-size: 16px;
   font-family: "Ubuntu Mono";
   font-weight: bolder;
@@ -386,7 +390,7 @@ ul {
 .footer {
   text-align: right;
   font-size: 0.75em;
-  color: #999;
+  color: #e77500;
   border-top: 1px solid #f4f4f4;
   padding: 20px 0;
   margin-top: 40px;
