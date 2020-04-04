@@ -4,11 +4,11 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fira+Mono);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  font-family: "Fira Sans", light 300;
-  font-weight: 300;
+  font-family: "Arial", sans-serif;
+  font-weight: 50;
   color: #333;
   line-height: 1.5;
   font-size: 16px;
