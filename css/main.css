@@ -117,7 +117,7 @@ h6 {
   color: #e77500;
   font-weight: 300;
   margin-bottom: 15px;
-  margin-top: 50px;
+  margin-top: 40px;
 
 }
 
@@ -233,10 +233,11 @@ ul {
 .header h2 {
   margin: 0;
   padding: 0;
-  margin-top:30px;
-  margin-bottom: 5px;
-  font-size: 2.25rem;
+  margin-top:10px;
+  margin-bottom: 0px;
+  font-size: 2.35rem;
   line-height: 1.3em;
+  font-weight: bold;
 }
 
 .header h2 {
@@ -482,3 +483,57 @@ ul {
     font-size: 14px;
   }
 }
+
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #e77500;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #e77500;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 130000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
