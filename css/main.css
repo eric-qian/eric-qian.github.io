@@ -383,6 +383,14 @@ ul {
      margin: 0em 0em 0em; 
 }
 
+.toTop
+{
+    font-family: "Fira Mono";
+    font-size: 14px;
+
+}
+
+
 .project_description {
  margin: .5em .9em 0em;
 }
@@ -490,27 +498,33 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
-  position: fixed;
+  background-color: #f3f3f3;
+  position: sticky;
   height: 100%;
   overflow: auto;
+  font-size:19px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  color: #9b521d;
+
 }
 
 .sidebar a {
   display: block;
-  color: black;
-  padding: 16px;
+  color: #333333;
+  padding: 18px;
   text-decoration: none;
 }
  
 .sidebar a.active {
   background-color: #e77500;
   color: white;
+
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #e77500;
-  color: white;
+      color: #e77500;
+      text-decoration: underline;
 }
 
 div.content {
