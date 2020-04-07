@@ -28,6 +28,9 @@ select,
 textarea {
   color: #e77500;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 ::-moz-selection {
   background: #b3d4fc;
