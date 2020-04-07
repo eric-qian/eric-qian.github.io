@@ -22,12 +22,17 @@
 <meta name="twitter:title" content="Eric Qian"/>
 <meta name="twitter:description" content=""/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-
-   
 
 	<link rel="stylesheet" type="text/css" media="screen" href=https://www.eric-qian.com/css/normalize.css />
 	<link rel="stylesheet" type="text/css" media="screen" href=https://www.eric-qian.com/css/main.css />
+
+
+
+
 
 	<script src=https://www.eric-qian.com/js/feather.min.js></script><script src=https://www.eric-qian.com/js/main.js></script>
 
@@ -38,20 +43,50 @@
 </head>
 
 
-	<body>
-		<a name="top"></a>
-		<div class="sidebar">
-		  <a></a>
-		  <a href="#about">About</a>
-		  <a href="#otherPublications">Projects</a>
- 		  <a href="#other">Other</a>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-		</div>
 
-		<div class="container wrapper">
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>        	
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#other">Other</a></li>          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div class="container wrapper">
+
+<div id="home" class="container-fluid">
+<br>
 			<div class="header">
+	<br>
+	<br>
+  <div class="imgDes">
+	<p>
 
-	<img src=https://www.eric-qian.com/profile.jpg class="profile_image">
+	<img src=https://www.eric-qian.com/profile.jpg class="profile_image",align="left">
 	<h1 class="site-title">Eric Qian</h1>
 	<div class="site-affilation">
 		<span class="affilation"><ul class="flat">
@@ -60,16 +95,20 @@
 			</ul><ul class="flat">
 				<li class="position">Brooklyn, New York</li>
 				<li class="email"></li>
-			</ul></span>
-		
+			</ul><ul class="flat">
 
-		<nav class="nav social">
+			</ul> 		<nav class="nav social">
 			<ul class="flat">
 				
 				<a href="qian_eric_cv.pdf" class="blog_cv">[Download CV]</a>
 				
 				<a href="https://github.com/eric-qian" title="GitHub"><i data-feather="github"></i></a><a href="https://www.linkedin.com/in/ericyqian" title="LinkedIn"><i data-feather="linkedin"></i></a></ul>
 		</nav>
+
+		</span>
+		
+
+
 	</div>
 
 	<nav class="nav">
@@ -77,42 +116,35 @@
 			
 		</ul>
 	</nav>
+	</p>
+</div>
 </div>
 
+</div>
+
+<div id="about" class="container-fluid">
 			<div class="introduction">
-	<a name="about"></a>
 	<h2> About </h2><span>
-		I am a Senior Research Analyst for the Federal Reserve Bank of New York's Time Series Analysis Team.
+		I am a Senior Research Analyst for the Federal Reserve Bank of New York's Macroeconomic and Monetary Studies Function (Time Series Analysis Team).
 	</span>
 	<br><span>
-		I graduated with Highest Distinction from the University of North Carolina at Chapel Hill in 2018 with majors in Mathematics (B.S.) and Statistics (B.S.). I also received a minor in Economics from Duke University under the Robertson Scholars Program.
+		I graduated with Highest Distinction from the University of North Carolina at Chapel Hill in 2018 with majors in Mathematics and Statistics. Under the Robertson Scholars Program, I also received a minor in Economics from Duke University.
 	</span>
 	<br><span>
 		<em>All views expressed are my own, and do not reflect those of the Federal Reserve Bank of New York nor Federal Reserve System.</em>
 	</span>
 	<br><span>
-		<b>Interests.</b> Macroeconomics, business cycles, monetary economics, macroeconometrics
+		<b>Interests.</b> Macroeconomics, econometrics, business cycles, monetary economics
 	</span>
-
-<div class=toTop align="right">
-	<br>
-   <a href="#top">[Return to top]</a>
-</div>		 
-
+</div>
 
 </div>
 
-			<div class="introduction">
-	
-</div>
-
-			<div class="introduction">
-	</div>
+<div id="projects" class="container-fluid">
 
 			<div class="introduction">
 	
-	<a name="otherPublications"></a>
-	<h2> Projects </h2><div class="year">Blog Articles</div>
+	<h2> Projects </h2><div class="year">Blog Articles</div> <br>
 
 	<ol>
 		
@@ -160,33 +192,29 @@
 			
 		</li>
 		
-	</ol><div class=toTop align="right">
-<br>
-<a href="#top">[Return to top]</a>
-</div>		 
+	</ol></div>
+
 </div>
-
+<div id="other" class="container-fluid">	
 			<div class="introduction">
-		<a name="other"></a>
-
 		<h2> Other </h2><span>
 		<p><strong>Nationality</strong>: American</p>
 <p><strong>Skills</strong>: MATLAB, R, LaTeX, Stata, EViews, SAS, Java, SQL, HTML, CSS</p>
 <p><strong>Activities</strong>: Tennis, cello, making coffee, running</p>
-<p><strong>Favorite coffee recipe</strong>: This recipe yields half of a liter of coffee. Begin by boiling one liter of water in a kettle. Weigh 46 grams of freshly roasted coffee beans, and grind to medium-fine coarseness. Place paper filter inside coffee dripper (like the Hario V60) and pre-wet with boiling water. Dispose water. Evenly distribute freshly ground coffee into dripper before making a slight divot in center. Start timer. Quickly pour 92 grams of water into dripper. Gently shake filter to ensure even water distribution. At the 40 second mark, quickly pour water over grounds in concentric circles until the dripper is full. Next, in concentric circles, slowly pour water into dripper, making sure to hit dark spots. Periodically shake the dripper. Stop pouring after pouring 540 grams of water. Stop timer, aiming for an elapsed time of 3-4 minutes.</p>
+<p><strong>Favorite coffee recipe</strong>: This pourover coffee recipe yields half of a liter of coffee. I typically prepare this with beans from <a href="https://counterculturecoffee.com/">Counter Culture Coffee</a> and a <a href="https://www.hario.jp/seihin/productgroup.php?group=VDC">Hario V60</a> dripper.</p>
+<ol>
+<li><em>Preparation:</em> Begin by boiling one liter of water in a gooseneck kettle. Weigh 46 grams of freshly roasted coffee beans and grind to medium-fine coarseness. Place paper filter inside coffee dripper and pre-wet with boiling water. Dispose water. Evenly distribute freshly ground coffee into dripper before making a slight divot in center.</li>
+<li><em>Prewetting:</em> Start timer and quickly pour 92 grams of water into dripper. Gently shake dripper to ensure even water distribution. At the 40 second mark, quickly pour water over grounds in concentric circles until the dripper is full.</li>
+<li><em>Pour:</em> Next, in concentric circles, slowly pour water into dripper, making sure to hit dark spots. Periodically shake the dripper to ensure that the bed of coffee grounds is even.</li>
+<li><em>Evaluation:</em> Stop pouring after pouring a total of 540 grams of water. Stop timer, aiming for an elapsed time of 3-4 minutes. If the elapsed time is greater than 4 minutes, use coarser grounds. If the elapsed time is less than 3 minutes, use finer grounds.</li>
+</ol>
 
 	</span>
-	<br><div class=toTop align="right">
-<br>
-<a href="#top">[Return to top]</a>
-</div>		 
+	<br></div>
 
 </div>
 
-
-
-		</div>
-		</div>
+</div>
 		<div class="footer wrapper">
 	<nav class="nav">
 		<div> Built with <a href="https://gohugo.io">Hugo</a></div>
@@ -208,6 +236,7 @@ if (!doNotTrack) {
 	feather.replace()
 
 </script>
-	</body>
+
+</body>
 
 </html>
