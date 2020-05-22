@@ -28,6 +28,7 @@ select,
 textarea {
   color: #e77500;
 }
+
 html {
   scroll-behavior: smooth;
 }
