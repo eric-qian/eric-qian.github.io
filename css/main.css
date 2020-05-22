@@ -1,18 +1,23 @@
 /* Ubuntu, Ubuntu */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
+  font-family: "Arial", sans-serif;
+  font-weight: 50;
   color: #333;
   line-height: 1.5;
   font-size: 16px;
+  position: relative;
 }
 
 a,
 a:hover {
-  color: #a00;
+  color: #e77500;
   text-decoration: none;
 }
 
@@ -21,7 +26,11 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+  color: #e77500;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 ::-moz-selection {
@@ -67,7 +76,7 @@ blockquote {
   font-size: 1.4rem;
   font-family: Georgia, bitstream charter, serif;
   border-left: 3px solid;
-  border-color: #a00;
+  border-color: #e77500;
   padding-left: 20px;
 }
 
@@ -81,12 +90,25 @@ span {
 
 a,
 a:hover {
-  color: #a00;
+  color: #e77500;
   text-decoration: none;
+}
+
+a:link {
+  color: #e77500;
+  text-decoration: none;
+  outline:none;
+  border-top: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+a:focus{
+    color: inherit;
+  border: none;
+  border-top: none;
+  outline:none;
 }
 
 h1,
@@ -95,20 +117,25 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Ubuntu, raleway, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   line-height: 1.2;
-  color: #330;
-  font-weight: 100;
-  margin-bottom: 15px;
-  margin-top: 20px;
+  color: #e77500;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-top: 50px;
+
 }
 
+
 h1 {
-  font-size: 2.75rem;
+    font-size: 3.3rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+  border-top: 1px solid #f4f4f4; 
+  border-spacing: 10px;
+
 }
 
 h3 {
@@ -193,36 +220,51 @@ ul {
 }
 
 .header {
-  margin-bottom: 20px;
+  margin-bottom: -50px;
   /* padding-bottom: 20px; */
 }
 
 .header .profile_image {
-  display: block;
-  margin-left: auto;
+ display: block;
+/*  margin-left: auto;
   margin-right: auto;
-  max-width: 30%;
+*/  max-width: 25%;
   height: auto;
-  border-radius: 50%;
-  /* float: left; */
+    float: left; 
+    margin-right: 60px;
+    margin-bottom: 50px;
+  padding: .1em;
+}
+
+.imgDes {
+  overflow: hidden;
+  text-align: left;
+  vertical-align: middle;
+}
+.imgDes p {
+  text-align: right;
 }
 
 .header h1,
 .header h2 {
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  margin-top:20px;
+  margin-bottom: 0px;
+  font-size: 4.5rem;
   line-height: 1.3em;
+  font-weight: bold;
 }
 
 .header h2 {
-  font-size: 1.125rem;
+  font-size: 2rem;
 }
 
 .header nav {
-  margin-top: 20px;
+  margin-top: 25px;
   /* border-top: 1px solid #f4f4f4; */
 }
+
 
 .header nav ul,
 .header nav li {
@@ -248,19 +290,20 @@ ul {
 }
 
 .header .site-affilation .email {
-  /* color: #a00; */
+  /* color: #e77500; */
   font-size: 14px;
   display: block;
-  font-family: "Ubuntu Mono";
-  font-weight: bolder;
+  font-family: "Fira Sans", light 300;
+    font-weight: bolder;
 }
 
 .header .site-affilation .position {
-  /* color: #a00; */
-  /* font-size: 14px; */
+  color: #757575; 
+  /*font-size: 16px; */
   /* display: block; */
-  font-family: Ubuntu;
-  /* font-weight: bolder; */
+  font-family: "Fira Sans", light 300;
+  vertical-align: top;
+    /* font-weight: bolder; */
 }
 
 .header .site-affilation nav {
@@ -285,7 +328,7 @@ ul {
 }
 
 .page_title {
-  font-family: Ubuntu;
+  font-family: "Fira Sans", light 300;
   font-weight: bolder;
   font-size: 1.5em;
   margin-top: 10%;
@@ -294,7 +337,7 @@ ul {
 
 .page_meta {
   display: block;
-  font-family: "Ubuntu Mono";
+  font-family: "Fira Sans", light 300;
   font-size: 14px;
 }
 
@@ -303,9 +346,9 @@ ul {
 }
 
 .email {
-  /* color: #a00; */
+  /* color: #e77500; */
   font-size: 16px;
-  font-family: "Ubuntu Mono";
+  font-family: "Fira Sans", light 300;
   font-weight: bolder;
 }
 
@@ -316,29 +359,53 @@ ul {
 }
 
 .year {
-  font-size: 20px;
-  margin-bottom: -.6em;
+  font-size: 1.25em;
+  margin-bottom: -1.25em;
 }
 
 .project {
   margin: .5em -.5em 0em;
 }
 
+.otherPublications {
+  margin-left: 0em;
+  border-top: 1px solid #f4f4f4; 
+
+}
+
+ ol li {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
 .publications {
   margin-left: -.5em;
+
 }
 
 .code_blog {
-    font-family: "Ubuntu Mono";
+    font-family: "Fira Sans", light 300;
     font-size: 14px;
     margin: 0em .9em 0em;
 }
 
 .blog_cv {
-    font-family: "Ubuntu Mono";
-    font-size: 17px;
-    /* margin: 0em .9em 0em; */
+    font-family: "Fira Mono";
+    font-size: 15px;
+    vertical-align: top;
+        text-align: center; 
+
+     margin: 0em 0em 0em; 
 }
+
+.toTop
+{
+    font-family: "Fira Mono";
+    font-size: 14px;
+
+}
+
 
 .project_description {
  margin: .5em .9em 0em;
@@ -385,8 +452,8 @@ ul {
 
 .footer {
   text-align: right;
-  font-size: 0.75em;
-  color: #999;
+  font-size: 1em;
+  color: #e77500;
   border-top: 1px solid #f4f4f4;
   padding: 20px 0;
   margin-top: 40px;
@@ -416,7 +483,10 @@ ul {
   }
 
   h2 {
-    font-size: 1.6rem;
+    font-size:2.5rem;
+    font-weight: 100;
+
+
   }
 
   h3 {
@@ -432,8 +502,157 @@ ul {
   }
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   body {
     font-size: 14px;
   }
 }
+*/
+
+
+/*.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f3f3f3;
+  position: sticky;
+  height: 100%;
+  overflow: auto;
+  font-size:19px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  color: #9b521d;
+
+}
+
+.sidebar a {
+  display: block;
+  color: #333333;
+  padding: 18px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #e77500;
+  color: white;
+
+}
+
+.sidebar a:hover:not(.active) {
+      color: #e77500;
+      text-decoration: underline;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 130000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+*/
+
+
+/*.navbar {
+  overflow: hidden;
+  background-color: #f3f3f3;
+  position: fixed; /* Set the navbar to fixed position */
+  /*top: 0;            /* Position the navbar at the top of the page */
+  /*width: 100%;  Full width */
+  /*font-family: "Fira Sans", sans-serif;*/
+
+/*}*/
+
+/* Links inside the navbar */
+/*.navbar a {
+  float: left;
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+*/
+/*.navbar a:hover:not(.active) {
+      color: #e77500;
+      text-decoration: underline;
+}
+*/
+
+/*.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;  Used in this example to enable scrolling 
+}
+*/
+
+
+  ul.nav-pills {
+    top: 80px;
+    position: fixed;
+  font-family: "Fira Sans", sans-serif;
+  }
+
+.nav-pills a:hover:not(.active) {
+      color: #e77500;
+      text-decoration: underline;
+}
+
+  
+  @media screen and (max-width: 600px) {
+    #about, #projects, #other {
+      margin-left: 150px;
+    }
+  }
+
+  @media screen and (max-width:768px) and (min-width:440px) {
+  .navbar-right {
+    float: right!important;
+  }
+  .navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    overflow: visible!important;
+    border: none;
+    margin-right: 15px;
+  }
+  .navbar-nav>li {
+    float: left;
+    margin: 5px 0;
+  }
+  .navbar-header {
+    float: left
+  }
+  .navbar-toggle {
+    display: none
+  }
+
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: green; 
+} 
+.navbar-brand,
+.navbar-nav a {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
