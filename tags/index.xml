@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Eric Qian</title>
-    <link>https://www.eric-qian.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Eric Qian</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.eric-qian.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docs</title>
-      <link>https://www.eric-qian.com/tags/docs/</link>
+      <link>http://localhost:1313/tags/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/docs/</guid>
+      <guid>http://localhost:1313/tags/docs/</guid>
       <description></description>
     </item>
     <item>
       <title>PaperMod</title>
-      <link>https://www.eric-qian.com/tags/papermod/</link>
+      <link>http://localhost:1313/tags/papermod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/papermod/</guid>
+      <guid>http://localhost:1313/tags/papermod/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>https://www.eric-qian.com/tags/css/</link>
+      <link>http://localhost:1313/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/css/</guid>
+      <guid>http://localhost:1313/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://www.eric-qian.com/tags/html/</link>
+      <link>http://localhost:1313/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/html/</guid>
+      <guid>http://localhost:1313/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://www.eric-qian.com/tags/markdown/</link>
+      <link>http://localhost:1313/tags/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/markdown/</guid>
+      <guid>http://localhost:1313/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>https://www.eric-qian.com/tags/themes/</link>
+      <link>http://localhost:1313/tags/themes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/themes/</guid>
+      <guid>http://localhost:1313/tags/themes/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>https://www.eric-qian.com/tags/code/</link>
+      <link>http://localhost:1313/tags/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/code/</guid>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Gist</title>
-      <link>https://www.eric-qian.com/tags/gist/</link>
+      <link>http://localhost:1313/tags/gist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/gist/</guid>
+      <guid>http://localhost:1313/tags/gist/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://www.eric-qian.com/tags/privacy/</link>
+      <link>http://localhost:1313/tags/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/privacy/</guid>
+      <guid>http://localhost:1313/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Shortcodes</title>
-      <link>https://www.eric-qian.com/tags/shortcodes/</link>
+      <link>http://localhost:1313/tags/shortcodes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/shortcodes/</guid>
+      <guid>http://localhost:1313/tags/shortcodes/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntax</title>
-      <link>https://www.eric-qian.com/tags/syntax/</link>
+      <link>http://localhost:1313/tags/syntax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/syntax/</guid>
+      <guid>http://localhost:1313/tags/syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>Emoji</title>
-      <link>https://www.eric-qian.com/tags/emoji/</link>
+      <link>http://localhost:1313/tags/emoji/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.eric-qian.com/tags/emoji/</guid>
+      <guid>http://localhost:1313/tags/emoji/</guid>
       <description></description>
     </item>
   </channel>
